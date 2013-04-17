@@ -17,3 +17,6 @@ if( $config['session_path'] != '' ) {
 }
 
 session_start();
+
+// Include common libraries
+include("includes/functions.php");
