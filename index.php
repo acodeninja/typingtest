@@ -22,3 +22,4 @@ session_start();
 include("includes/functions.php");
 include("includes/mysql.php");
 include("includes/test.php");
+include("includes/email.php");
