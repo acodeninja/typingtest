@@ -10,3 +10,10 @@ if( !file_exists("config.php") ){
 }
 
 include("config.php");
+
+// Set the session save path before starting
+if( $config['session_path'] != '' ) {
+	session_save_path( $config['session_path'] );
+}
+
+session_start();
