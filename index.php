@@ -23,3 +23,17 @@ include("includes/functions.php");
 include("includes/mysql.php");
 include("includes/test.php");
 include("includes/email.php");
+
+// Find out what page we are on
+$page = page_current();
+$page = $page[0];
+
+if( $page == '' || $page == 'index.php' ) // For the moment we might need to add other conditionals here
+{
+
+	header( "Location: index.php/home");
+	echo '<meta http-equiv="refresh" content="0, ' . $config['http'] . 'index.php/home">';
+
+} else {
+
+}
