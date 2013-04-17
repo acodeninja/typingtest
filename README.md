@@ -1,4 +1,4 @@
-typingtest
+TypingTest
 ==========
 
-Test your typing skills.
+This application is designed to provide an easy way for companies to administer a typing test.
