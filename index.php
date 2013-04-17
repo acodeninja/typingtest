@@ -36,4 +36,16 @@ if( $page == '' || $page == 'index.php' ) // For the moment we might need to add
 
 } else {
 
+	// Run the page functions
+	include( "pages/{$page}.php" );
+
+	// Grab the header
+	include("templates/header.php");
+
+	// Grab the page content
+	include( "templates/{$page}.php" );
+
+	// Grab the footer
+	include("templates/footer.php");
+
 }
