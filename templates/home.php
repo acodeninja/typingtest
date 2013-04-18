@@ -3,7 +3,7 @@
         <ul class="thumbnails">
           <li>
             <a class="thumbnail">
-              <img src="assets/img/pn_guy.png" alt="">
+              <img src="assets/img/logo.jpg" alt="">
             </a>
           </li>
         </ul>
