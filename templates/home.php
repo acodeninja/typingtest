@@ -9,7 +9,7 @@
         </ul>
     </div>
     <div class="span4" style="text-align: center">
-        <h1>Plusnet Typing Test</h1>
+        <h1>Typing Test</h1>
         <p>This assesment is designed to test both your typing speed and accuracy.</p>
         <p>Each recording will only play once. Please type what you hear in the text box and check for spelling and grammar after each recording finishes.</p>
         <p>&nbsp;</p>
